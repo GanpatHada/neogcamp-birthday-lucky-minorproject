@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+:root{
+    --primarycolor:#1195ab;
+}
+
+
+footer{
+    background-color: var(--primarycolor);
+    padding: 15px;
+    text-align: center;
+    color:white;
+    width: 100vw;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;    
+}
+main{
+    background-color: white;
+    min-height: calc(100vh - 173px);
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    height: 80px;
+    width: 100vw;
+    font-family: cursive;
+    background-color: var(--primarycolor);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    
+}
+#box{
+    width: 400px;
+    background-color: whitesmoke;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin: 0px 20px;
+    border-radius: 5px;
+    
+}
+input{
+    width: 90%;
+    display: block;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 10px;
+    transition: 0.3s ease-in-out box-shadow;
+
+
+}
+input:focus{
+    outline: none;
+    border: 1px solid var(--primarycolor);
+}
+input[type=submit]
+{
+    margin-top: 50px;
+    background-color: var(--primarycolor);
+    color: white;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: #0a5e6c;
+    box-shadow: none;
+
+    
+}
+input:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+#box p{
+    text-align: center;
+    color: darkgray;
+    font-family: sans-serif;
+    margin: 0px 10px;
+    margin-bottom: 40px;
+}
+i{
+    color:white;
+    font-size: 24px;
+    margin: 10px 5px;
+}
