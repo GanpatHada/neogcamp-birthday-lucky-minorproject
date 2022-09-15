@@ -62,21 +62,22 @@ input:focus{
     outline: none;
     border: 1px solid var(--primarycolor);
 }
-input[type=submit]
+input:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#check
 {
     margin-top: 50px;
     background-color: var(--primarycolor);
     color: white;
     cursor: pointer;
+    border: none
 }
-input[type=submit]:hover{
+#check:hover{
     background-color: #0a5e6c;
     box-shadow: none;
 
     
-}
-input:hover{
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 h2{
     text-align: center;
