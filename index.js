@@ -8,6 +8,12 @@ function checkvalue(ln, dob, output) {
         output.style.color = "crimson";
         return 0;
     }
+    if(Number(ln)<0)
+    {
+        output.innerText = "Enter valid numbers";
+        output.style.color = "crimson";
+        return 0;
+    }
     const newdob=dob.replaceAll("-","0");
     let sum=0
     for(let i of newdob)
