@@ -20,12 +20,12 @@ function checkvalue(ln, dob, output) {
       sum=sum+Number(i);
     if(sum%Number(ln)===0) 
     {
-        output.innerText = `Hurrey ${ln} is lucky number !! 🥳🥳 `;
+        output.innerText = `Hurrey your birthday is Lucky !! 🥳🥳 `;
         output.style.color = "green"; 
         output.style.fontWeight="bold"
     }
     else{
-        output.innerText = `Sorry ${ln} is not a lucky number !! 😔😌 `;
+        output.innerText = `Sorry your birthday is not Lucky !! 😔😌 `;
         output.style.color = "orange";
         output.style.fontWeight="bold" 
     }
